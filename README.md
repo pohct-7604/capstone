@@ -10,16 +10,21 @@ The aim of this project is to develop and evaluate a suitable machine learning m
     </p>
 </div>
 
-
-
 ## Dataset
 Source of dataset : https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
 
-show and describe the graph information of dataset here, the features etc etc
+* show and describe profile of dataset, graph information of dataset here, the features etc etc
 
+## Data Preprocessing
+* show the data imbalance, outliers, null values in data, and then show how to taggle these issues.
+* perform label encoding on categorical data, perform standardscaler() on continuous numeric data etc
+* perform smote() or other possible random sampling to make data more balance, reduce overfitting etc
 
 ## Models used in exploration
+Splitting data into training & test sets. Compare & evaluate results on the different ML models, check if input parameters are suitable, and which settings more appropriate to generate good training & test results
 - Logistic Regression
 - Random Forest
 - XGBoost
 - Support Vector Machine
+
+

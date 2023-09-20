@@ -14,7 +14,7 @@ The aim of this project is to develop and evaluate a suitable machine learning m
 [Dataset Source](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset "Kaggle Home")
 
 ##### Attribute Information
-|id|unique identifier|
+|Attribute|Description|
 |:--:|:--|
 |gender|"Male", "Female" or "Other"|
 |age|age of the patient|
@@ -37,7 +37,7 @@ The aim of this project is to develop and evaluate a suitable machine learning m
 </figure>
 <br clear="left"/>
 
-##### Distribution of the dataset fields
+##### Distribution of the dataset attributes
 <figure>
     <img src="images/dataset-img0a.jpg"/>
     <img src="images/dataset-img0b.jpg"/>
@@ -45,13 +45,15 @@ The aim of this project is to develop and evaluate a suitable machine learning m
 <br clear="left"/>
 
 ## Data Preprocessing
-* show the data imbalance, outliers, null values in data, and then show how to taggle these issues.
-* perform label encoding on categorical data, perform standardscaler() on continuous numeric data
-* perform smote() or other possible random sampling to make data more balance, reduce overfitting
+* Populate null values in BMI attribute with the average value of the column.
+* Perform label encoding on categorical data, perform standardscaler() on continuous numeric data.
+* Perform smote() or other possible random sampling to make data more balance, reduce overfitting.
 
 ## Models used in exploration
-Splitting data into training & test sets. Compare & evaluate results on the different ML models, check if input parameters are suitable, and which settings more appropriate to generate good training & test results
 - Logistic Regression
 - Random Forest
 - XGBoost
 - Support Vector Machine
+
+Splitting data into training & test sets. 
+Compare & evaluate results on the different ML models, check if input parameters are suitable, and which settings more appropriate to generate good training & test results.

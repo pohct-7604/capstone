@@ -13,11 +13,14 @@ The aim of this project is to develop and evaluate a suitable machine learning m
 ## Dataset
 Source of dataset : https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
 
-Sample of the dataset
+##### Sample of the dataset
 
 <img src="images/dataset-head1.jpg"/>
 <br clear="left"/>
 
+Distribution of the dataset fields
+
+<img src="images/dataset-img0a.jpg"/>
 <img src="images/dataset-img0b.jpg"/>
 <br clear="left"/>
 

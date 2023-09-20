@@ -1,6 +1,8 @@
 # Capstone Project - Stroke Prediction using Machine Learning
 <div>
+    <p>
     <img align="left" height="180" src="images/stroke-img.jpg">
+    </p>
     <p>
       According to the World Stroke Organization (WSO), stroke is the second-leading cause of death in the world and the third-leading cause of death and disability combined. 
 Stroke can be prevented with appropriate public policy action to address risk factors and increased public awareness.

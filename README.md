@@ -1,5 +1,4 @@
 # Capstone Project - Stroke Prediction using Machine Learning
-
 <div>
     <img align="left" height="170" src="images/stroke-img.jpg">
     <p>
@@ -9,11 +8,20 @@ Stroke can be prevented with appropriate public policy action to address risk fa
 The aim of this project is to develop and evaluate a suitable machine learning model to predict the risk of stroke. The project utilizes different features to identify everyone's risk of stroke. And to provide early preventive measures and/or treatments to the possible high risk groups.
     </p>
 </div>
+<br>
 
 ## Dataset
 Source of dataset : https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
 
-* show and describe profile of dataset, graph information of dataset here, the features etc etc
+Sample of the dataset
+
+<img src="images/dataset-head1.jpg"/>
+<br clear="left"/>
+
+<img src="images/dataset-img0b.jpg"/>
+<br clear="left"/>
+
+show and describe profile of dataset, graph information of dataset here, the features etc etc
 
 ## Data Preprocessing
 * show the data imbalance, outliers, null values in data, and then show how to taggle these issues.
@@ -26,5 +34,3 @@ Splitting data into training & test sets. Compare & evaluate results on the diff
 - Random Forest
 - XGBoost
 - Support Vector Machine
-
-

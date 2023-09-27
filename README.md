@@ -49,9 +49,7 @@ The aim of this project is to develop and evaluate a suitable machine learning m
 
 ## Models used in exploration
 - Logistic Regression
-- Random Forest
 - XGBoost
-- Support Vector Machine
 
 Splitting data into training & test sets. 
 Compare & evaluate results on the different ML models, check if input parameters are suitable, and which settings more appropriate to generate good training & test results.

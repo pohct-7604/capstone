@@ -25,10 +25,11 @@ Patient's level of satisfactory could also be increased as the patient sees that
 
 ##### Attribute Information
 There are total 5110 records records in the dataset.<br>
-There are 10 feature columns and 1 target column in the dataset.
+There are total 12 columns of which "id" is the identifier of the dataset, "stroke" is the target/outcome variable, and the rest are feature columns.
 
 |Attribute|Description|
 |:--:|:--|
+|id|unique identifier|
 |gender|"Male", "Female" or "Other"|
 |age|age of the patient|
 |hypertension|0 if the patient doesn't have hypertension, 1 if the patient has hypertension|

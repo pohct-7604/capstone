@@ -7,12 +7,28 @@ Stroke can be prevented with appropriate public policy action to address risk fa
 
 The aim of this project is to develop and evaluate a suitable machine learning model to predict the risk of stroke. The project utilizes different features to identify everyone's risk of stroke. And to provide early preventive measures and/or treatments to the possible high risk groups.
 
+
+
 <br>
+
+## Role and Objective
+As the author of the dataset did not indicated the source of the data, I would assume the dataset belongs to Hospital X, and I am working as an Data Analyst in Hospital X.
+
+My task is to develop an suitable machine learning model to predict whom are the patients potential at risk of developing stroke based on hospital's patient information records.
+This is to allow the hospital to identify these group of potential high risk patients (existing/new), to provide preventive measures or treatments as early as possible to to reduce the incidence rate/complications of the disease.
+
+Reduction of incidence / complications of the disease would lessen the manpower and resources required to treat these patients, eg. shorter hospital stay, and lesser manpower required.
+
+Patient's level of satisfactory could also be increased as the patient sees that the hospital showing genuine concerns regarding their health status, and would choose the hospital as the one to go to for any medical services required.
+
 
 ## Dataset
 [Dataset Source](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset "Kaggle Home")
 
 ##### Attribute Information
+There are total 5110 records records in the dataset.<br>
+There are 10 feature columns and 1 target column in the dataset.
+
 |Attribute|Description|
 |:--:|:--|
 |gender|"Male", "Female" or "Other"|

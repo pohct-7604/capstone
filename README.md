@@ -1,13 +1,11 @@
 # Capstone Project - Stroke Prediction using Machine Learning
 
-<img align="left" height="180" src="images/stroke-img.jpg"/>
+<img align="left" height="200" src="images/stroke-img.jpg"/>
 
 According to the World Stroke Organization (WSO), stroke is the second-leading cause of death in the world and the third-leading cause of death and disability combined. 
 Stroke can be prevented with appropriate public policy action to address risk factors and increased public awareness.
 
 The aim of this project is to develop and evaluate a suitable machine learning model to predict the risk of stroke. The project utilizes different features to identify everyone's risk of stroke. And to provide early preventive measures and/or treatments to the possible high risk groups.
-
-
 
 <br>
 

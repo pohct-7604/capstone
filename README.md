@@ -13,11 +13,11 @@ The aim of this project is to develop and evaluate a suitable machine learning m
 As the author of the dataset did not indicated the source of the data, I would assume the dataset belongs to Hospital X, and I am working as an Data Analyst in Hospital X.
 
 My task is to develop an suitable machine learning model to predict whom are the patients potential at risk of developing stroke based on hospital's patient information records.
-This is to allow the hospital to identify these group of potential high risk patients (existing/new), to provide preventive measures or treatments as early as possible to to reduce the incidence rate/complications of the disease.
+This is to allow the hospital to identify these group of potential high risk patients (existing/new), to provide preventive measures or treatments as early as possible to reduce the incidence rate/complications of the disease.
 
-Reduction of incidence / complications of the disease would lessen the manpower and resources required to treat these patients, eg. shorter hospital stay, and lesser manpower required.
+Reduction of incidence / complications of the disease would lessen the hospital's manpower and resources required to treat these patients, eg. shorter hospital stay, and lesser manpower required.
 
-Patient's level of satisfactory could also be increased as the patient sees that the hospital showing genuine concerns regarding their health status, and would choose the hospital as the one to go to for any medical services required.
+Patient's level of satisfactory could also be increased as the patient sees that the hospital showing genuine concerns regarding their health status, and would choose the hospital as most preferred to go to for any medical services required.
 
 
 ## Dataset
@@ -56,14 +56,28 @@ There are 10 feature columns and 1 target column in the dataset.
 <img src="images/dataset-img0b.jpg"/>
 <br clear="left"/>
 
-## Data Preprocessing
+## Data Processing
 * Populate null values in BMI attribute with the average value of the column.
-* Perform label encoding on categorical data, perform standardscaler() on continuous numeric data.
-* Perform smote() or other possible random sampling to make data more balance, reduce overfitting.
+* Perform one-hot encoding on categorical data.
+* Check for duplicate records.
+* Check for outliers in the dataset and justify whether to remove or not to remove.
 
-## Models used in exploration
+## ML Models Used
 - Logistic Regression
 - XGBoost
 
-Splitting data into training & test sets. 
-Compare & evaluate results on the different ML models, check if input parameters are suitable, and which settings more appropriate to generate good training & test results.
+## Steps
+* Splitting dataset into training & test sets. 
+* Train the above models using the training dataset.
+* Compare & evaluate results on the different ML models, 
+    - No minority oversampling done on the training and test dataset.
+    - Minority oversampling on the training dataset but not on the test dataset.
+    - Minority oversampling done on both the training and test dataset.
+    - Minority oversampling done on both the training and test dataset, and with outliers removed.
+
+## Test Results
+[Test Results](FinalResults.pdf)
+
+<img src="images/TestResult1.jpg"/>
+<img src="images/TestResult2.jpg"/>
+<img src="images/TestResult3.jpg"/>

@@ -24,7 +24,7 @@ Patient's level of satisfactory could also be increased as the patient sees that
 [Dataset Source](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset "Kaggle Home")
 
 ##### Attribute Information
-There are total 5110 records records in the dataset.<br>
+There are total 5110 records in the dataset.<br>
 There are total 12 columns of which "id" is the identifier of the dataset, "stroke" is the target/outcome variable, and the rest are feature columns.
 
 |Attribute|Description|
